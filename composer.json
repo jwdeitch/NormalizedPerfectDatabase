@@ -1,6 +1,11 @@
 {
-    "require": {
-        "fzaninotto/faker": "^1.5",
-        "illuminate/database": "^5.2"
-    }
+  "require": {
+    "fzaninotto/faker": "^1.5",
+    "illuminate/database": "^5.2"
+  },
+  "autoload": {
+    "classmap": [
+      "design"
+    ]
+  }
 }
